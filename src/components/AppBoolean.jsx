@@ -1,10 +1,12 @@
 const AppBoolean = ({isMan}) => {
     //console.log(isMan);
-    let res;
-    (isMan == true) ? res =('Это мужчина') : res =('Это женщина');
+    // let res;
+    // (isMan == true) ? res =('Это мужчина') : res =('Это женщина');
 
     return (
-        <div>{res}</div>
+        <div>
+            {isMan ? 'Это мужчина' : 'Это женщина'}
+        </div>
     )
 
 }
